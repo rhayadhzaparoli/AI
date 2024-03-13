@@ -26,7 +26,7 @@ saida3 = perceptrom_output(peso, bias, x3)
 
 
 print("PERCEPTROM IMPLEMENTANDO FUNÇÃO BOLEANA NOR")
-print("0 NAND 0 = ", saida0 )
-print("0 NAND 1 = ", saida1 )
-print("1 NAND 0 = ", saida2 )
-print("1 NAND 1 = ", saida3 )
+print("0 NOR 0 = ", saida0 )
+print("0 NOR 1 = ", saida1 )
+print("1 NOR 0 = ", saida2 )
+print("1 NAOR 1 = ", saida3 )
