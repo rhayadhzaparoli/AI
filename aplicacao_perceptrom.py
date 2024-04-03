@@ -2,9 +2,9 @@
 from __future__ import division
 from collections import Counter
 from functools import partial
+from linear_algebra import dot
 import matplotlib
 import matplotlib.pyplot as plt
-from linear_algebra import dot
 
 
 def degrau(x):
@@ -86,7 +86,6 @@ padrao_teste_2 = [-1, 0.6, 0.3]
 padrao_teste_3 = [-1, 0.1, 0.9]
 padrao_teste_4 = [-1, 0.2, 0.6]
 padrao_teste_5 = [-1, 0.8, 0.1]
-
 
 print("tetse de generalização")
 neuronio, saida_0 = teste_generalizacao(neuronio, padrao_teste_0, saida0)
